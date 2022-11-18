@@ -14,11 +14,15 @@ import GradeIcon from "@mui/icons-material/Grade";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.common.black,
     color: theme.palette.common.white,
+    padding:25,
+    backgroundColor:" #99c2ff",
+    color:"black"
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 14,
+    padding:25,
+   
   },
 }));
 
@@ -32,9 +36,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
-}
 
 const MembersSquad = [
     {
@@ -46,28 +47,28 @@ const MembersSquad = [
     },
     {
       familyName: "Benmejahed ",
-      name: "abd el samad",
+      name: "Abd Elsamad",
       role: "co-Leader",
       img: "1920_1280.jpg",
       icon: <MilitaryTechIcon />,
     },
     {
       familyName: "Cherifi",
-      name: "meloud",
+      name: "Meloud",
       role: "co-Leader",
       img: "1920_1280.jpg",
       icon: <MilitaryTechIcon />,
     },
     {
-      familyName: "fettah",
-      name: "kkk",
+      familyName: "Fettah",
+      name: "Lilia",
       role: "member",
       img: "1920_1280.jpg",
       icon: <CardMembershipIcon />,
     },
     {
-      familyName: "mahlol",
-      name: "hind",
+      familyName: "Mehlol",
+      name: "Hind",
       role: "member",
       img: "1920_1280.jpg",
       icon: <CardMembershipIcon />,
@@ -75,14 +76,14 @@ const MembersSquad = [
   ];
 export default function CustomizedTables() {
   return (
-    <Grid container xs={12}>
+    <Grid container xs={12} style={{marginTop:40 ,marginBottom:40}}>
 
     <TableContainer component={Paper} >
       <Table  sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>
             <StyledTableCell>Family Name</StyledTableCell>
-            <StyledTableCell align="right">Name</StyledTableCell>
+            <StyledTableCell align="left">Name</StyledTableCell>
             <StyledTableCell align="right">Role</StyledTableCell>
             <StyledTableCell align="right">Role Icon</StyledTableCell>
             <StyledTableCell align="right">Individual Task</StyledTableCell>
