@@ -44,17 +44,21 @@ const MembersSquad = [
       role: "Leader",
       img: "1920_1280.jpg",
       icon: <GradeIcon />,
+      individualTask:"https://drive.google.com/file/d/1QlMCPgHQNUZARGj1X--oKwgYEQgZvq7U/view?usp=sharing",
+      indName :"akaza.Team"
+      
     },
     {
-      familyName: "Benmejahed ",
-      name: "Abd Elsamad",
+      familyName: "Bellemdjahed ",
+      name: "Abdelsamed",
       role: "co-Leader",
       img: "1920_1280.jpg",
       icon: <MilitaryTechIcon />,
+      indName :""
     },
     {
       familyName: "Cherifi",
-      name: "Meloud",
+      name: "Miloud",
       role: "co-Leader",
       img: "1920_1280.jpg",
       icon: <MilitaryTechIcon />,
@@ -67,7 +71,7 @@ const MembersSquad = [
       icon: <CardMembershipIcon />,
     },
     {
-      familyName: "Mehlol",
+      familyName: "Mehloul",
       name: "Hind",
       role: "member",
       img: "1920_1280.jpg",
@@ -87,7 +91,7 @@ export default function CustomizedTables() {
             <StyledTableCell align="right">Role</StyledTableCell>
             <StyledTableCell align="right">Role Icon</StyledTableCell>
             <StyledTableCell align="right">Individual Task</StyledTableCell>
-            <StyledTableCell align="right">Collective Task</StyledTableCell>
+           
           </TableRow>
         </TableHead>
         <TableBody>
@@ -101,8 +105,7 @@ export default function CustomizedTables() {
               </StyledTableCell>
               <StyledTableCell align="right">{row.role}</StyledTableCell>
               <StyledTableCell align="right">{row.icon}</StyledTableCell>
-              <StyledTableCell align="right">{row.individualTask}</StyledTableCell>
-              <StyledTableCell align="right">{row.collectiveTask}</StyledTableCell>
+              <StyledTableCell align="right"><a href={row.individualTask}>{row.indName}</a></StyledTableCell>
           
             </StyledTableRow>
           ))}

@@ -13,9 +13,9 @@ function NavBar() {
       <Grid container xs={12} direction="row" alignItems="center">
         <Grid xs={4} xsOffset={0.5}>
           <img
-            style={{ width: 110, height: 110 }}
-            src="Capture-modified.PNG"
-            alt="React Logo"
+            style={{ width: 170, height: 110 }}
+            src="akaza.jpg"
+            alt="Team Logo"
           />
         </Grid>
         <Grid
@@ -73,7 +73,7 @@ function NavBar() {
               fontWeight: "Bold",
             }}
           >
-            <Typography variant="h5">LI</Typography>
+            <Typography variant="h5">individual task</Typography>
           </Link>
         </Grid>
         <Grid
@@ -92,7 +92,7 @@ function NavBar() {
               fontWeight: "Bold",
             }}
           >
-            <Typography variant="h5">LC</Typography>
+            <Typography variant="h5">Reports</Typography>
           </Link>
         </Grid>
       </Grid>

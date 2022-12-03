@@ -6,6 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 import CardMembershipIcon from "@mui/icons-material/CardMembership";
 import GradeIcon from "@mui/icons-material/Grade";
+import Avatar from '@mui/material/Avatar';
 import CardActions from "@mui/material/CardActions";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
@@ -15,35 +16,35 @@ const MembersSquad = [
     familyName: "Meroaune",
     name: "Mohamed Elamine",
     role: "Leader",
-    img: "1920_1280.jpg",
+    img: "merouane.jpg",
     icon: <GradeIcon />,
   },
   {
-    familyName: "Benmejahed ",
-    name: "abd el samad",
+    familyName: "Bellemdjahed ",
+    name: "Abdelsamed",
     role: "co-Leader",
-    img: "1920_1280.jpg",
+    img: "abdsamad.jpg",
     icon: <MilitaryTechIcon />,
   },
   {
     familyName: "Cherifi",
-    name: "meloud",
+    name: "Miloud",
     role: "co-Leader",
-    img: "1920_1280.jpg",
+    img: "miloud.jpg",
     icon: <MilitaryTechIcon />,
   },
   {
-    familyName: "fettah",
+    familyName: "Fettah",
     name: "Lilia",
     role: "member",
-    img: "1920_1280.jpg",
+    img: "fettah.jpg",
     icon: <CardMembershipIcon />,
   },
   {
-    familyName: "mehlol",
-    name: "hind",
+    familyName: "Mehloul",
+    name: "Hind",
     role: "member",
-    img: "1920_1280.jpg",
+    img: "hind.jpg",
     icon: <CardMembershipIcon />,
   },
 ];
@@ -74,19 +75,7 @@ function Members() {
                 </Grid>
               </Grid>
             </CardContent>
-            <CardActions>
-              <Button size="small" variant="outlined">
-                <Link
-                  to="/li"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                  
-                >
-                  Individual Deliverable
-                </Link>
-              </Button>
-            </CardActions>
+           
           </Card>
         </Grid>
       );
