@@ -105,7 +105,11 @@ export default function CustomizedTables() {
               </StyledTableCell>
               <StyledTableCell align="right">{row.role}</StyledTableCell>
               <StyledTableCell align="right">{row.icon}</StyledTableCell>
-              <StyledTableCell align="right"><a href={row.individualTask}>{row.indName}</a></StyledTableCell>
+              <StyledTableCell align="right"><a style={{
+              textDecoration: "none",
+              color: "black",
+              fontWeight: "Bold",
+            }} href={row.individualTask}>{row.indName}</a></StyledTableCell>
           
             </StyledTableRow>
           ))}
