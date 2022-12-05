@@ -44,7 +44,7 @@ function OurProject() {
 
       <Grid container xs={4} style={{ marginTop: 60 }} xsOffset={2.5}>
         <Card sx={{ maxWidth: 345 , maxHeight:410}}>
-          <CardMedia component="img" height="250" image="Bipic.jpg" />
+          <CardMedia component="img" height="250" image="https://nix-united.com/wp-content/uploads/2022/03/1920_1280.jpg" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               business intelligence
