@@ -14,24 +14,24 @@ import Button from "@mui/material/Button";
 function Lc() {
   const OurReports = [
     {
-      name: "Meroaune",
-      duration: "Mohamed Elamine",
-      link: "Leader",
+      name: "AKAZA-TEAM-1-Report",
+      duration: "1.30 H",
+      link: "https://drive.google.com/file/d/1cCKm7SR_XALjoyJm8RypIZz9A2M7ErYh/view?usp=sharing",
     },
     {
-      name: "Bellemdjahed ",
-      duration: "Abdelsamed",
+      name: "AKAZA-TEAM-2-Report ",
+      duration: "none",
       link: "co-Leader",
      
     },
     {
-      name: "Meroaune",
-      duration: "Mohamed Elamine",
+      name: "AKAZA-TEAM-3-Report",
+      duration: " none",
       link: "Leader",
     },
     {
-      name: "Bellemdjahed ",
-      duration: "Abdelsamed",
+      name: "AKAZA-TEAM-4-Report ",
+      duration: "none",
       link: "co-Leader",
      
     },
@@ -44,7 +44,7 @@ function Lc() {
         <Grid xs={3.5} justifyContent="center" >
         <Card sx={{ minWidth: 275 }} style={{backgroundColor :"#EAF6F6"}}>
         <CardContent>
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" paddingBottom={2.5}>
           {report.name}
           </Typography>
           <Typography sx={{ mb: 1.5 }} color="text.secondary">
