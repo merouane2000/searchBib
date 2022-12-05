@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 import CardMembershipIcon from "@mui/icons-material/CardMembership";
 import GradeIcon from "@mui/icons-material/Grade";
-import Avatar from '@mui/material/Avatar';
+import Avatar from "@mui/material/Avatar";
 import CardActions from "@mui/material/CardActions";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
@@ -23,7 +23,7 @@ const MembersSquad = [
     familyName: "Bellemdjahed ",
     name: "Abdelsamed",
     role: "co-Leader",
-    img: "abdsamad.jpg",
+    img: "https://img.freepik.com/free-photo/3d-rendering-zoom-call-avatar_23-2149556785.jpg",
     icon: <MilitaryTechIcon />,
   },
   {
@@ -50,7 +50,6 @@ const MembersSquad = [
 ];
 
 function Members() {
-  
   const allcard = () => {
     var cards = [];
     MembersSquad.map((member) => {
@@ -75,7 +74,6 @@ function Members() {
                 </Grid>
               </Grid>
             </CardContent>
-           
           </Card>
         </Grid>
       );
