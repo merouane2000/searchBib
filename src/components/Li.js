@@ -64,13 +64,8 @@ const MembersSquad = [
     individualTask: [
       {
         tsklinck:
-          "https://drive.google.com/file/d/1E14b73NBD-YPbFqMDBkUeC9chn14YEbI/view?usp=sharing",
-          indName: "1report.akaza.Team.pdf",
-      },
-      {
-        tsklinck:
-          "https://drive.google.com/file/d/1BtjMWm5RphLnM9wVJ-ylBiwFCporJzM4/view?usp=sharing",
-          indName: "2report.akaza.Team.pdf",
+          "https://drive.google.com/file/d/1mJwj9c7U_olh_8QFyhcZtbPwvhzkaf05/view?usp=sharing",
+          indName: "Report-1-Bellmdjahed.pdf",
       },
     ],
  
@@ -103,13 +98,13 @@ const MembersSquad = [
     individualTask: [
       {
         tsklinck:
-          "https://drive.google.com/file/d/1E14b73NBD-YPbFqMDBkUeC9chn14YEbI/view?usp=sharing",
-          indName: "1report.akaza.Team.pdf",
+          "https://drive.google.com/file/d/13Zw5TXh_j4YqCrQjmQ45xtoaOdEjy0hL/view?usp=sharing",
+          indName: "Report-1-Fettah.pdf",
       },
       {
         tsklinck:
-          "https://drive.google.com/file/d/1BtjMWm5RphLnM9wVJ-ylBiwFCporJzM4/view?usp=sharing",
-          indName: "2report.akaza.Team.pdf",
+          "https://drive.google.com/file/d/1TRQvsfz7Yy4XBVQZmlfoocuIOp9R_Dwg/view?usp=sharing",
+          indName: "Report-2-Fettah.pdf",
       },
     ],
   },
@@ -122,13 +117,13 @@ const MembersSquad = [
     individualTask: [
       {
         tsklinck:
-          "https://drive.google.com/file/d/1E14b73NBD-YPbFqMDBkUeC9chn14YEbI/view?usp=sharing",
-          indName: "1report.akaza.Team.pdf",
+          "https://drive.google.com/file/d/1pVOnttkgEsUDAx1-aTyVPL-L7WocG-UD/view?usp=sharing",
+          indName: "Report-1-Mehloul.pdf",
       },
       {
         tsklinck:
-          "https://drive.google.com/file/d/1BtjMWm5RphLnM9wVJ-ylBiwFCporJzM4/view?usp=sharing",
-          indName: "2report.akaza.Team.pdf",
+          "https://drive.google.com/file/d/1hpHVo5AVibdI1B1qSyZigovJC2VGW3U0/view?usp=sharing",
+          indName: "Report-2-Mehloul.pdf",
       },
     ],
   },
