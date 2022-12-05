@@ -156,7 +156,7 @@ export default function CustomizedTables() {
                 <StyledTableCell align="right">
                  { row.individualTask.map((task)=>(
                <div style={{padding:"7px"}}>
-                  <a key={task.indName}
+                  <a target='_blank'  key={task.indName}
                     style={{
                       textDecoration: "none",
                       color: "black",

@@ -54,7 +54,7 @@ function Lc() {
         </CardContent>
         <CardActions>
           <Button size="small">
-            <a   style={{
+            <a target='_blank'   style={{
               textDecoration: "none",
               color: "black",
               fontWeight: "Bold",
