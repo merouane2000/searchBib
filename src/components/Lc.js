@@ -20,8 +20,8 @@ function Lc() {
     },
     {
       name: "AKAZA-TEAM-2-Report ",
-      duration: "none",
-      link: "co-Leader",
+      duration: "2.00 H",
+      link: "https://drive.google.com/file/d/1xtU7We5FXAd-7AdPuYBURJXgr8ceF-LZ/view?usp=sharing",
      
     },
     {
