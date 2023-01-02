@@ -67,6 +67,11 @@ const MembersSquad = [
           "https://drive.google.com/file/d/1mJwj9c7U_olh_8QFyhcZtbPwvhzkaf05/view?usp=sharing",
           indName: "Report-1-Bellmdjahed.pdf",
       },
+      {
+        tsklinck:
+          "https://drive.google.com/file/d/1WLDlKwFrLiouT1JvkK-uhjcR157qeOHD/view?usp=sharing",
+          indName: "Report-2-Bellmdjahed.pdf",
+      },
     ],
  
   },
